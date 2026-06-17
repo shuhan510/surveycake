@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>問卷載入中……</title>
+
+    <script>
+        const surveys = [
+            "https://www.surveycake.com/s/yXaWD",
+            "https://www.surveycake.com/s/Boy6y",
+            "https://www.surveycake.com/s/N4aZN",
+            "https://www.surveycake.com/s/k8Xzm",
+            "https://www.surveycake.com/s/z2DbX",
+            "https://www.surveycake.com/s/oOzwZ",
+            "https://www.surveycake.com/s/K9dno",
+            "https://www.surveycake.com/s/9MOy1"
+        ];
+
+        const randomIndex = Math.floor(Math.random() * surveys.length);
+
+        window.location.replace(surveys[randomIndex]);
+    </script>
+</head>
+
+<body>
+    <p>正在載入問卷，請稍候……</p>
+</body>
+</html>
